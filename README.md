@@ -2,7 +2,7 @@
 Elastic APM Quick Start 가이드입니다.
 
 - 실습 환경
-	- OS : MAC
+	- OS : macOS
 	- 샘플 애플리케이션 : NodeJS
 	- Elasticsearch 버전 : 6.2.3
 	- Kibana 버전 : 6.2.3
@@ -104,6 +104,7 @@ elasticapm$ cd elastic_apm_quick_start/sample-node-app
 ~~~
 sample-node-app$ npm install
 ~~~
+npm으로 의존성 패키지 설치 시 package.json에 명시된 'elastic-apm-node' 라이브러리도 함께 설치 된다.
 #### 5-4. SQL 테스트를 위해 설정 파일에 DB 정보 입력(SQL 테스트 안할 시 건너 뛰어도 무방)
 ~~~
 sample-node-app$ vi config.js
